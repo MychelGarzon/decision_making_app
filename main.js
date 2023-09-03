@@ -1,4 +1,4 @@
-const desicionMaking = () => {
+const decisionMaking = () => {
   const userName = document.querySelector('#userName').value;
   const question_user = document.querySelector('#question_user').value;
   const funny_answer = document.querySelector('#funny_answer');
