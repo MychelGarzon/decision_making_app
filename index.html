@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Desicion Making</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap"
+    />
 
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -13,27 +16,32 @@
       <div class="flex-item-1">
         <h1>Desicion Making</h1>
         <div>
-          <label class="userName" for="userName"> What is your name</label>
-          <input
-            type="text"
-            name="userName"
-            id="userName"
-            placeholder="Enter your name"
-          />
+          <label class="userName" for="userName">
+            <span>What is your name</span>
+            <input
+              type="text"
+              name="userName"
+              id="userName"
+              placeholder="Enter your name"
+            />
+          </label>
         </div>
         <div>
-          <label class="question_user" for="question_user"> Write your question</label>
-          <input
-            type="text"
-            name="question_user"
-            id="question_user"
-            placeholder="Write your question"
-          />
+          <label class="question_user" for="question_user">
+            <span> Write your question</span>
+            <input
+              type="text"
+              name="question_user"
+              id="question_user"
+              placeholder="Write your question"
+          /></label>
         </div>
-        <button onclick="decisionMaking()" class="button" type="button">
-         Submit your question
-        </button>
-        <p id="funny_answer"></p>
+      </div>
+      <button onclick="decisionMaking()" class="button" type="button">
+        Submit your question
+      </button>
+      <p id="funny_answer"></p>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>

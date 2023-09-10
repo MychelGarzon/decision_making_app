@@ -4,42 +4,49 @@
   box-sizing: border-box;
 }
 body {
-  background-image: url('/Untitled.png');
-  background-size: cover;
   color: #333;
-  font-family: 'Amatic';
+  font-family: 'Amatic', sans-serif;
   display: inline-block;
+  background: url('/Untitled.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .flex-container {
-  display: flex;
   flex-direction: column;
-  flex: 100%;
-  padding: 400px;
+  width: 600px;
+  margin-left: 450px;
+  margin-top: 500px;
+  text-align: center;
 }
 
-input {
-  width: 100%;
-  margin-bottom: 5px;
+.flex-item-1 input {
   padding: 10px;
   border-radius: 5px;
   border: 1px solid grey;
+  margin: 20px;
+  font-size: 2vh;
+}
+span {
+  margin-right: 10px;
+  font-size: 2vh;
 }
 
-.flex-item-1 .button {
-  background-color: blueviolet;
-  border: none;
+.button {
+  background-color: transparent;
   margin: 15px 0;
   padding: 5px;
   border-radius: 2px;
-  width: 150px;
+  width: 20vh;
   color: white;
+  font-size: 2vh;
 }
 
 #funny_answer {
-  font-size: x-large;
+  font-size: 2rem;
 }
-@media (max-width: 800px) {
+@media (min-width: 800px) {
   .flex-container {
     flex-direction: column;
     align-items: center;
