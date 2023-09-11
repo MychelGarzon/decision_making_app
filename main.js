@@ -12,37 +12,38 @@ const decisionMaking = () => {
 
   switch (randomNumber) {
     case 1:
-      answer = `You should go for it!  `;
+      answer = `Hello ${userName} You should go for it!  `;
       break;
     case 2:
-      answer = `It's a good time to take a leap of faith! `;
+      answer = `Hello ${userName}!!! It's a good time to take a leap of faith! `;
       break;
     case 3:
-      answer = `Consider all your options before deciding. `;
+      answer = `Hello ${userName} Consider all your options before deciding. `;
       break;
     case 4:
-      answer = `Don't rush into anything; take your time.`;
+      answer = `Hello ${userName} Don't rush into anything; take your time.`;
       break;
     case 5:
-      answer = `The answer is right in front of you!`;
+      answer = `Hello ${userName} The answer is right in front of you!`;
       break;
     case 6:
-      answer = `Trust your instincts and make a move. `;
+      answer = `Hello ${userName} Trust your instincts and make a move. `;
       break;
     case 7:
-      answer = `Seek advice from someone you trust.`;
+      answer = `Hello ${userName} Seek advice from someone you trust.`;
       break;
     case 8:
-      answer = `Now is the time to explore new possibilities. `;
+      answer = `Hello ${userName} Now is the time to explore new possibilities. `;
       break;
     case 9:
-      answer = `Take a calculated risk; it might pay off!`;
+      answer = `Hello ${userName} Take a calculated risk; it might pay off!`;
       break;
     case 10:
-      answer = `Focus on what truly matters to you. `;
+      answer = `Hello ${userName} Focus on what truly matters to you. `;
       break;
     default:
       answer = `Unable to provide a decision at this time. `;
   }
+
   funny_answer.textContent = answer;
 };

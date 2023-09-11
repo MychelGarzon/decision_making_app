@@ -6,18 +6,14 @@
 body {
   color: #333;
   font-family: 'Amatic', sans-serif;
-  display: inline-block;
-  background: url('/Untitled.png');
+  display: flex;
+  background: url('/Background.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-
-.flex-container {
-  flex-direction: column;
-  width: 600px;
-  margin-left: 160px;
-  margin-top: 280px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   text-align: center;
 }
 
@@ -25,9 +21,10 @@ body {
   padding: 10px;
   border-radius: 5px;
   border: 1px solid grey;
-  margin: 20px;
+  margin: 2rem;
   font-size: 2vh;
 }
+
 span {
   margin-right: 10px;
   font-size: 2vh;
@@ -39,14 +36,20 @@ span {
   padding: 5px;
   border-radius: 2px;
   width: 20vh;
-  color: white;
+  color: black;
   font-size: 2vh;
 }
 
 #funny_answer {
-  font-size: 20px;
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 10px;
   text-align: center;
-  padding-top: 30px;
+  font-size: 3vh;
+  text-align: center;
 }
 @media (min-width: 800px) {
   .flex-container {
