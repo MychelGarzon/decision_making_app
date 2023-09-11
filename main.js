@@ -2,6 +2,11 @@ const decisionMaking = () => {
   const userName = document.querySelector('#userName').value;
   const question_user = document.querySelector('#question_user').value;
   const funny_answer = document.querySelector('#funny_answer');
+  const submitButton = document.querySelector('button');
+  document.getElementById('user').style.display = 'none';
+  document.getElementById('question').style.display = 'none';
+  document.getElementById('tittle').style.display = 'none';
+  document.getElementById('button').style.display = 'none';
 
   let randomNumber = Math.floor(Math.random() * 10) + 1;
 

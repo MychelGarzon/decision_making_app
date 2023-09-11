@@ -16,8 +16,8 @@ body {
 .flex-container {
   flex-direction: column;
   width: 600px;
-  margin-left: 450px;
-  margin-top: 500px;
+  margin-left: 160px;
+  margin-top: 280px;
   text-align: center;
 }
 
@@ -44,7 +44,9 @@ span {
 }
 
 #funny_answer {
-  font-size: 2rem;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 30px;
 }
 @media (min-width: 800px) {
   .flex-container {
